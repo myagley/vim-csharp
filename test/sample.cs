@@ -29,7 +29,7 @@ namespace OrangeTentacle.Sample
             get;
             set;
         }
-        
+
         private Engine _engine;
         public Engine Engine
         {
@@ -45,7 +45,7 @@ namespace OrangeTentacle.Sample
                 Second="Harris", Given = 20)]
         public Engine StartEngine()
         {
-        
+
         }
 
         [Bind(Name="Bob Harris")]
@@ -60,7 +60,7 @@ namespace OrangeTentacle.Sample
             List<Bob, List<ICarl>> list = new List<Bob, List<ICarl>> { Cal = 32 };
 
             var type = typeof(List<Bob, List<ICarl>>);
-            
+
             var runMethod = Run(ICONSTANT);
 
             var items = from e in db.Entities
@@ -73,7 +73,7 @@ namespace OrangeTentacle.Sample
 
         private async void RunAsync()
         {
-        
+
         }
     }
 
